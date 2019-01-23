@@ -1,1 +1,1 @@
-My solutions to this cirriculum's projects.
+My solutions to this curriculum's projects.
