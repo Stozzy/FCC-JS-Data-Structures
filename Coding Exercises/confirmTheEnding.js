@@ -1,8 +1,5 @@
 function confirmEnding(str, target) {
-  let targetLength = target.length;
-  let doesStrEndWith = str.slice(str.length - targetLength);
-
-  return doesStrEndWith === target;
+  return str.endsWith(target);
 }
 
-confirmEnding("Bastian", "n");
+console.log(confirmEnding("All of your base are belong to us", "Us"));
