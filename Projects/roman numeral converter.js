@@ -16,7 +16,10 @@ function convertToRoman(num) {
      900: 'CM',
      1000: 'M'
  };
+<<<<<<< HEAD
  
+=======
+>>>>>>> FCC-JS-Data-Structures/master
  while (num > 0) {
      if (num >= 1000) {
          num -= 1000;
@@ -42,6 +45,7 @@ function convertToRoman(num) {
      } else if (num >= 40) {
          num -= 40; 
          result += romanKeys[40];
+<<<<<<< HEAD
      } else if (num > 10) {
          num -= 10;
          result += romanKeys[10];
@@ -49,6 +53,18 @@ function convertToRoman(num) {
          num -= 5;
          result += romanKeys[5];
      } else if (num = 4) {
+=======
+     } else if (num >= 10) {
+         num -= 10;
+         result += romanKeys[10];
+     } else if (num >= 9) {
+         num -= 9;
+         result += romanKeys[9];
+     } else if (num >= 5) {
+         num -= 5;
+         result += romanKeys[5];
+     } else if (num >= 4) {
+>>>>>>> FCC-JS-Data-Structures/master
          num -= 4;
          result += romanKeys[4];
      } else if (num > 0) {
@@ -61,4 +77,15 @@ function convertToRoman(num) {
  return result;
 }
 
+<<<<<<< HEAD
 console.log(convertToRoman(5));
+=======
+console.log(convertToRoman(2));
+console.log(convertToRoman(5));
+console.log(convertToRoman(4));
+console.log(convertToRoman(9));
+console.log(convertToRoman(90));
+console.log(convertToRoman(49));
+console.log(convertToRoman(51));
+console.log(convertToRoman(1984));
+>>>>>>> FCC-JS-Data-Structures/master
